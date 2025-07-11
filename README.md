@@ -1,32 +1,32 @@
-## Project Title : "Medi Connect"
+# 🌿 MindfulBot – Mental Health Support Chatbot
 
-### DESCRIPTION:
+## 💡 Project Idea
 
-Mediconnect is an innovative and thoughtful capstone project that aims to address a common problem faced by many people suffering from various illnesses and disorders - the tedious and time-consuming process of booking appointments with doctors. By creating a web application that simplifies the appointment booking process, Mediconnect has the potential to make a significant and positive impact on people's lives.
+**MindfulBot** is a chatbot designed to provide emotional support to users dealing with stress, anxiety, or overwhelming emotions. It simulates empathetic conversations and offers simple support like breathing exercises, affirmations, and conversational comfort.
 
+The aim is to create a safe, calming space for users to talk without judgment. This is NOT a replacement for therapy but a supportive companion.
 
-| Day   | Task                               |
-|-------|------------------------------------|
-| Day 1 | Build Low fid design               |
-| Day 2 | Build High fid design              |
-| Day 3 | Connect GitHub                     |
-| Day 4 | Use Post API                       |
-| Day 5 | Use Put API                        |
-| Day 6 | Create Backend schema              |
-| Day 7 | Connect to MongoDB                 |
-| Day 8 | Deploy Backend                     |
-| Day 9 | Perform database read and write operation|
-| Day 10| Implement relations between entities|
-| Day 11| Initialise React app               |
-| Day 12| Create Frontend Components         |
-| Day 13| Work on login and logout page      |
-| Day 14| Deploy frontend server             |
-| Day 15| Match Design and end-state         |
-| Day 16| Use JWT in app                     |
+---
 
+## 🗓️ Day-by-Day Capstone Plan
 
-BackEnd-deployment-link:
-https://capstone-project-k9tj.onrender.com
+| Day | Task |
+|-----|------|
+| **Day 1** | Ideation, README creation, branch setup |
+| **Day 2** | Low-Fidelity design in Figma |
+| **Day 3** | High-Fidelity design in Figma |
+| **Day 4** | Frontend setup (React), build UI layout |
+| **Day 5** | Backend setup (Node.js/Express), create GET endpoints |
+| **Day 6** | Connect frontend and backend (API integration) |
+| **Day 7** | Add POST endpoints, chatbot message functionality |
+| **Day 8** | Basic chatbot logic (placeholder responses) |
+| **Day 9** | Test conversation flow and error handling |
+| **Day 10** | Polish UI, test responsiveness |
+| **Day 11** | Final testing, record walkthrough video |
+| **Day 12** | Prepare documentation, submit GitHub and video links |
 
-FrontEnd-deployment-link:
-https://capstone-mediconnect.vercel.app/
+---
+
+## 🙌 Created by
+**Bharath Kumar K E**  
+**Squad 61**
