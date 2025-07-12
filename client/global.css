@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * Tailwind CSS theme
+   * tailwind.config.ts expects the following color variables to be expressed as HSL values.
+   * A different format will require also updating the theme in tailwind.config.ts.
+  */
+  :root {
+    --background: 220 15% 98%;
+    --foreground: 220 15% 15%;
+
+    --card: 220 15% 100%;
+    --card-foreground: 220 15% 15%;
+
+    --popover: 220 15% 100%;
+    --popover-foreground: 220 15% 15%;
+
+    --primary: 200 85% 55%;
+    --primary-foreground: 220 15% 98%;
+
+    --secondary: 220 15% 96%;
+    --secondary-foreground: 220 15% 20%;
+
+    --muted: 220 15% 96%;
+    --muted-foreground: 220 10% 45%;
+
+    --accent: 170 60% 92%;
+    --accent-foreground: 170 60% 20%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 220 15% 98%;
+
+    --border: 220 15% 90%;
+    --input: 220 15% 95%;
+    --ring: 200 85% 55%;
+
+    --radius: 0.75rem;
+
+    /* Mental Health Brand Colors - Calm Blues */
+    --calm-50: 200 100% 97%;
+    --calm-100: 200 95% 92%;
+    --calm-200: 200 90% 85%;
+    --calm-300: 200 85% 75%;
+    --calm-400: 200 85% 65%;
+    --calm-500: 200 85% 55%;
+    --calm-600: 200 85% 45%;
+    --calm-700: 200 85% 35%;
+    --calm-800: 200 85% 25%;
+    --calm-900: 200 85% 15%;
+
+    /* Healing Greens */
+    --healing-50: 160 60% 97%;
+    --healing-100: 160 60% 92%;
+    --healing-200: 160 60% 85%;
+    --healing-300: 160 60% 75%;
+    --healing-400: 160 60% 65%;
+    --healing-500: 160 60% 55%;
+    --healing-600: 160 60% 45%;
+    --healing-700: 160 60% 35%;
+    --healing-800: 160 60% 25%;
+    --healing-900: 160 60% 15%;
+
+    /* Serenity Purples */
+    --serenity-50: 270 50% 97%;
+    --serenity-100: 270 50% 92%;
+    --serenity-200: 270 50% 85%;
+    --serenity-300: 270 50% 75%;
+    --serenity-400: 270 50% 65%;
+    --serenity-500: 270 50% 55%;
+    --serenity-600: 270 50% 45%;
+    --serenity-700: 270 50% 35%;
+    --serenity-800: 270 50% 25%;
+    --serenity-900: 270 50% 15%;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 20% 8%;
+    --foreground: 220 15% 95%;
+
+    --card: 220 20% 10%;
+    --card-foreground: 220 15% 95%;
+
+    --popover: 220 20% 10%;
+    --popover-foreground: 220 15% 95%;
+
+    --primary: 200 85% 65%;
+    --primary-foreground: 220 20% 8%;
+
+    --secondary: 220 20% 15%;
+    --secondary-foreground: 220 15% 95%;
+
+    --muted: 220 20% 15%;
+    --muted-foreground: 220 10% 70%;
+
+    --accent: 170 30% 20%;
+    --accent-foreground: 170 60% 85%;
+
+    --destructive: 0 84% 65%;
+    --destructive-foreground: 220 20% 8%;
+
+    --border: 220 20% 18%;
+    --input: 220 20% 15%;
+    --ring: 200 85% 65%;
+
+    /* Dark mode brand colors */
+    --calm-50: 200 60% 12%;
+    --calm-100: 200 60% 18%;
+    --calm-200: 200 60% 25%;
+    --calm-300: 200 60% 35%;
+    --calm-400: 200 60% 45%;
+    --calm-500: 200 60% 55%;
+    --calm-600: 200 60% 65%;
+    --calm-700: 200 60% 75%;
+    --calm-800: 200 60% 85%;
+    --calm-900: 200 60% 92%;
+
+    --healing-50: 160 30% 12%;
+    --healing-100: 160 30% 18%;
+    --healing-200: 160 30% 25%;
+    --healing-300: 160 30% 35%;
+    --healing-400: 160 30% 45%;
+    --healing-500: 160 30% 55%;
+    --healing-600: 160 30% 65%;
+    --healing-700: 160 30% 75%;
+    --healing-800: 160 30% 85%;
+    --healing-900: 160 30% 92%;
+
+    --serenity-50: 270 25% 12%;
+    --serenity-100: 270 25% 18%;
+    --serenity-200: 270 25% 25%;
+    --serenity-300: 270 25% 35%;
+    --serenity-400: 270 25% 45%;
+    --serenity-500: 270 25% 55%;
+    --serenity-600: 270 25% 65%;
+    --serenity-700: 270 25% 75%;
+    --serenity-800: 270 25% 85%;
+    --serenity-900: 270 25% 92%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
