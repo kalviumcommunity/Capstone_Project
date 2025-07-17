@@ -326,3 +326,4 @@ For mental health emergencies, please contact:
 ---
 
 _This project demonstrates advanced full-stack development skills while addressing a critical societal need for accessible mental health support._
+
