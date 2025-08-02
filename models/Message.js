@@ -23,3 +23,18 @@ const messageSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model('Message', messageSchema);
+
+
+const mongoose = require('mongoose');
+
+const messageSchema = new mongoose.Schema({
+  text: String,
+  sender: String,
+  createdAt: {
+    type: Date,
+    default: Date.now
+  },
+  user: { type: mongoose.Schema.Types.ObjectId, ref: 'User' }
+});
+
+module.exports = mongoose.model('Message', messageSchema);
